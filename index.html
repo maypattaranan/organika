@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>????| Farm to Table</title>
+    <title>ORGANIKA | Ekologiska butik</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" type="image/png" href="./img/logo.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Montserrat&family=Roboto+Mono&family=Ubuntu&family=Work+Sans&display=swap"
       rel="stylesheet"
@@ -14,12 +15,13 @@
   </head>
   <body>
     <nav id="nav-container">
-      <div class="logo-container">
-        <a href="#"><strong>ORGANIKA</strong></a>
+      <div id="logo-container">
+        <img id="icon-logo" src="./img/logo.png" alt="" />
+        <a href="#"><p>ORGANIKA</p></a>
       </div>
       <ul id="nav-list">
         <li>
-          <button>Beställ nu</button>
+          <button class="shadow-focus"><p>🛒 Beställ nu</p></button>
         </li>
         <li>Recept</li>
         <li>Map</li>
@@ -100,7 +102,45 @@
       <div id="slogan">
         <p>Fresh Products from Farm to Table.</p>
       </div>
+      <!-- Tour Section -->
+      <div id="tour">
+        <section id="grid-tour-container">
+          <article class="grid-tour-item">
+            <a href="#"
+              ><div class="grid-item-content">
+                <img src="./img/category1.jpg" alt="" />
+                <h2>Grönsaker & Frukter</h2>
+                <button class="shadow-focus"><p>Välj</p></button>
+              </div></a
+            >
+          </article>
+          <article class="grid-tour-item">
+            <a href="#"
+              ><div class="grid-tour-item-content">
+                <img src="./img/category2.jpg" alt="" />
+                <h2>Kött</h2>
+                <button class="shadow-focus"><p>Välj</p></button>
+              </div></a
+            >
+          </article>
+          <article class="grid-tour-item">
+            <a href="#"
+              ><div class="grid-tour-item-content">
+                <img src="./img/category3.jpg" alt="Restaurant" />
+                <h2>Matbröd & Snacks</h2>
+                <button class="shadow-focus"><p>Välj</p></button>
+              </div></a
+            >
+          </article>
+        </section>
+      </div>
     </main>
-    <script src="app.js"></script>
+    <footer>
+      <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+        beatae incidunt quibusdam corrupti vero ad ea repudiandae laudantium
+        placeat libero?
+      </div>
+    </footer>
   </body>
 </html>
