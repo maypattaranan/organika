@@ -2,6 +2,7 @@
 
 HTML &amp; CSS
 A basic webpage using HTML & CSS for practicing purpose
+
 Display:
 - sticky navbar
 - slideshow (pure css)
