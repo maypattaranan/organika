@@ -1,6 +1,6 @@
 # Organika
 
-A basic webpage created for practicing HTML & vanilla CSS
+A basic webpage created using HTML & vanilla CSS
 
 Display:
 - sticky navbar
