@@ -1,6 +1,5 @@
 # Organika
 
-HTML &amp; CSS
 A basic webpage using HTML & CSS for practicing purpose
 
 Display:
