@@ -372,4 +372,14 @@ li {
     padding: 1rem;
     background-color: #fff;
   }
+  #nav-container {
+    background-color: #344e41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    position: fixed; /* fix a navbar */
+    width: 100%;
+    z-index: 1; /* make it a TOP object */
+  }
 }
